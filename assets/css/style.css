@@ -136,7 +136,7 @@
 }
 
 .offers .off .icon{
-    font-size: 25pt;
+    font-size: 22pt;
     margin-right: 15px;
 }
 
@@ -179,3 +179,50 @@
     font-size: 13pt;
     padding: 2rem 0;
 }
+
+.dest {
+    padding: 0.5rem 0;
+}
+
+.dest h2{
+    color: var(--theme-font3);
+    font-size: 21pt;
+    padding: 2rem 0;
+
+}
+
+.dest .card-layout{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+.dest .card-layout .dcards{
+    border: 1px solid #959597;
+    border-radius: 10px;
+    margin-right: 1rem;
+}
+
+.dest .card-layout .dcards img{
+    height:150px;
+    width: 250px;
+    border-radius: 10px 10px 0 0;
+}
+
+.dest .card-layout .dcards .dinfo{
+    padding: 12px 10px;
+}
+
+.dest .card-layout .dcards .dinfo h4{
+    color: var(--theme-font3);
+    font-size: 12pt;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.dest .card-layout .dcards .dinfo small{
+    color: var(--theme-font3);
+    
+}
+
