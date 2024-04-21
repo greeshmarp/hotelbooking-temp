@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 :root {
@@ -74,7 +74,7 @@
 .book h1{
     color: var(--theme-font3);
     font-size: 25pt;
-    
+    font-weight: 600;
 }
 
 .in-put{
@@ -122,7 +122,7 @@
 }
 
 .offers .hline{
-   font-size: 12pt;
+   font-size: 11pt;
 }
 
 .offers .off{
@@ -149,6 +149,7 @@
 .stayops h2{
     color: var(--theme-font3);
     font-size: 21pt;
+    font-weight: 600;
     padding: 2rem 0;
 }
 
@@ -188,6 +189,8 @@
     color: var(--theme-font3);
     font-size: 21pt;
     padding: 2rem 0;
+    font-weight: 600;
+
 
 }
 
@@ -206,7 +209,7 @@
 
 .dest .card-layout .dcards img{
     height:150px;
-    width: 250px;
+    width: 270px;
     border-radius: 10px 10px 0 0;
 }
 
@@ -226,3 +229,294 @@
     
 }
 
+.deals{
+    padding: 1rem 0;
+}
+
+.deals .mline{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--theme-font3);
+    
+}
+
+.deals .mline a{
+    text-decoration: none;
+    background-color: var(--theme-font2);
+    border-radius: 25px;
+    padding: 15px 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.deals .mline h2{
+    font-size: 21pt;
+    padding: 2rem 0;
+    font-weight: 600;
+
+}
+
+.deals .card-layout{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.deals .card-layout .card-deals{
+    margin-right: 1rem;
+}
+
+
+.deals .card-layout .card-deals img{
+    height:200px;
+    width: 270px;
+    border-radius: 10px;
+}
+
+.deals .card-layout .card-deals .info-deals{
+    display: flex;
+    flex-direction: column;
+    color: var(--theme-font3);
+}
+
+.info-deals p{
+    padding: 10px 0;
+    font-size: 11pt;
+    font-weight: lighter;
+}
+
+.info-deals h5{
+    padding: 5px 0;
+    font-size: 12pt;
+    
+}
+
+.info-deals h6{
+    padding-bottom: 4px;
+    font-size: 11pt;
+}
+
+.info-deals .price{
+    display: flex;
+    align-items: center;
+    
+
+}
+.info-deals .price p{
+    font-size: 12pt;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+
+.info-deals small{
+    font-size: 8pt;
+    color: #191e3bc9;
+}
+
+.info-deals a{
+    margin-top: 10px;
+    color: white;
+    font-weight: 600;
+    font-size: 9pt;
+    text-decoration: none;
+    background-color: var(--theme-font1);
+    padding: 3px 4px;
+    text-align: center;
+    width: 55px;
+    border-radius: 6px;
+}
+
+
+.app-ad{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    border: 1px solid #cccccc91;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+
+.app-ad .img1 img{
+    height: 340px;
+    width:400px;
+    border-radius: 10px 0 0 10px;
+}
+
+.app-ad .img2 img{
+    height: 190px;
+    width:190px;
+    padding: 1rem;
+}
+
+
+.app-ad .app-info{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    color: var(--theme-font3);
+}
+
+.app-ad .app-info h1{
+    font-size: 27pt;
+    font-weight: 600;
+}
+
+.app-ad .app-info ul{
+    list-style-type: disc;
+    list-style-position: inside;
+    font-size: 11pt;
+}
+
+::marker{
+    font-size: 10px;
+    
+}
+
+.app-ad .app-info p{
+    margin-top: 3rem;
+    font-size: 12pt;
+    font-weight: 700;
+}
+
+.app-ad .app-info a{
+    margin-top: 3rem;
+    color: var(--theme-font2);
+}
+
+
+
+.footer{
+    padding-top: 3rem;
+    
+}
+
+.footer img{
+    height: auto;
+    width:150px;
+    margin-bottom: 1rem;
+}
+.footer .navcols{
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    
+    
+}
+
+.navcols .top-nav{
+    display: flex;
+    flex-direction: row;
+    gap: 3.5rem;
+}
+
+.navcols .top-dest h4{
+    color: var(--theme-font3);
+    font-size: 12pt;
+    font-weight: 500;
+}
+
+.navcols .top-dest .top-list{
+    margin-top: 10px;
+}
+
+.top-dest .top-list li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.top-dest .top-list li a{
+    text-decoration: none;
+    color: var(--theme-font2);
+    font-size: 9pt;
+    font-weight: 500;
+}
+
+.top-dest .top-list li a:hover{
+    text-decoration: underline;
+
+}
+
+.navcols .top-sett{
+    display: flex;
+    flex-direction: row;
+    gap: 3.5rem;
+}
+
+.foot-end{
+    border-top: 1px solid #D7D7D8;
+    padding: 1rem 0;
+}
+
+.foot-end p{
+    font-size:9pt;
+    color: var(--theme-font3);
+}
+
+.main .col{
+    float:left;
+    padding:10px 10px 10px 0;
+}
+
+.main .col.side{
+    
+    width: 20%;
+}
+
+.side .map{
+    display: flex;
+    flex-direction: column;
+    border:1px solid #D7D7D8;
+    border-radius: 10px;
+    width:100%;
+
+}
+
+.col.side .map img{
+    height:120px;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.col.side .map a{
+    text-decoration: none;
+    text-align: center;
+    color: var(--theme-font2);
+    padding: 5px 0;
+    font-size: 9pt;
+    font-weight: 500;
+}
+
+.col.side .map a:hover{
+    text-decoration: underline;
+}
+
+.side .tog{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 1rem;
+    border-radius: 10px;
+    border:1px solid #D7D7D8;
+    padding: 8px 10px;
+}
+
+.side .tog a{
+    text-decoration: none;
+    color: var(--theme-font3);
+    font-size: 11pt;
+}
+
+.side .tog i{
+  
+    color: #7b7c84;
+    font-size: 20pt;
+}
+
+
+.main .col.middle{
+    width: 60%;
+}
