@@ -470,7 +470,7 @@
     display: flex;
     flex-direction: column;
     border:1px solid #D7D7D8;
-    border-radius: 10px;
+    border-radius: 1rem;
     width:100%;
 
 }
@@ -485,8 +485,8 @@
     text-decoration: none;
     text-align: center;
     color: var(--theme-font2);
-    padding: 5px 0;
-    font-size: 9pt;
+    padding: 10px 0;
+    font-size: 10pt;
     font-weight: 500;
 }
 
@@ -499,7 +499,7 @@
     align-items: center;
     gap: 10px;
     margin-top: 1rem;
-    border-radius: 10px;
+    border-radius: 1rem;
     border:1px solid #D7D7D8;
     padding: 8px 10px;
 }
@@ -514,6 +514,98 @@
   
     color: #7b7c84;
     font-size: 20pt;
+}
+
+.side .prop{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    padding: 1rem 0;
+    border-top: 1px solid #D7D7D8;
+    border-bottom: 1px solid #D7D7D8;
+
+}
+
+.side h3{
+    color: var(--theme-font3);
+    font-weight: 600;
+    font-size: 15pt;
+
+}
+
+.side .prop .search-1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 1rem;
+    border-radius: 10px;
+    border:1px solid #818494;
+    padding: 13px 12px;
+}
+
+
+.side .filter{
+    margin-top: 1rem;
+    
+
+}
+.side .filter .form_filter fieldset{
+    border: none;
+    margin-top: 1rem;
+}
+
+.filter h4{
+    color: var(--theme-font3);
+    font-size: 11pt;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.filter .pop-fil{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 5px;
+}
+
+.filter .pop-fil label{
+    color: var(--theme-font3);
+    font-size: 11pt;
+}
+
+.filter .range{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.filter .range .pri-range{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #818494;
+    padding: 5px 12px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.filter .range .pri-range label{
+    font-size: 9pt;
+    font-weight: 500;
+}
+
+.filter .range .pri-range input{
+    border: none;
+}
+
+.filter .range .pri-range input:focus{
+    outline: none;
+}
+
+.filter .slider{
+    padding: 10px 0;
+}
+
+.filter .slider input{
+    width: 100%;
 }
 
 
