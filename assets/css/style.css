@@ -608,7 +608,61 @@
     width: 100%;
 }
 
+.filter .prop-star{
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    flex-wrap: wrap;
+}
+
+.filter .star-rate{
+    align-items: center;
+    border: 1px solid #818494;
+    
+    border-radius: 10px;
+    padding: 6px 5px;
+    width: 50px;
+    color: var(--theme-font3);
+    text-align: center;
+}
+
+.filter .star-rate i{
+    font-size: 9pt;
+    
+}
+
+.filter .star-rate span{
+    font-size: 10pt;
+    font-weight: 500;
+}
+
 
 .main .col.middle{
     width: 60%;
+}
+
+.col.middle .v-layout{
+    padding: 0.5rem;
+}
+
+.col.middle .villa-btn{
+    color: var(--theme-font3);
+    border-radius: 3rem;
+    border: 3px solid var(--theme-font3);
+    padding: 4px 12px;
+    width: 80px;
+    text-align: center;
+    background-color: #ECF4FD;
+}
+
+.col.middle .villa-btn a{
+    text-decoration: none;
+    margin-right: 5px;
+    color: var(--theme-font3);
+    font-size: 11pt;
+}
+
+.col.middle .villa-btn i{
+   font-size: 9pt;
+    
 }
