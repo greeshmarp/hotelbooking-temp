@@ -197,7 +197,6 @@
 .dest .card-layout{
     display: flex;
     align-items: center;
-    overflow: hidden;
     
 }
 
@@ -946,4 +945,28 @@
     background-color: #7b7c84;
     border: 1px solid #4e4e50;
     height: 100vh;
+}
+
+@media only screen and (min-width: 768px){
+    .stayops{
+        overflow: hidden;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .card-layout{
+        overflow: hidden;
+    }
+}
+    
+@media only screen and (max-width: 1000px){
+    .offers{
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .layout {
+        padding: 2rem 5rem;
+    }
 }
